@@ -1,6 +1,6 @@
 # NEOVIM like VScode
 NVIM settings to look like vscode easy way
-![NEOVIM LIKE VSCODE](https://i.ibb.co/RpK3XWW/nvimconfig.jpg "NEOVIM LIKE VSCODE")
+![NEOVIM LIKE VSCODE](https://camo.githubusercontent.com/37b6ed2f037359c60f1e902ef386a4d05fe562c707689eab78a14caac5256f39/68747470733a2f2f692e6962622e636f2f52704b335857572f6e76696d636f6e6669672e6a7067 "NEOVIM LIKE VSCODE")
 #### This settings brings
 1. File explorer left bar = Ctrl+n
 2. File browser = Ctrl+p
