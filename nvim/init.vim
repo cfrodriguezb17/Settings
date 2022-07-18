@@ -1,6 +1,6 @@
 " Basic configuration
 set nocompatible
-set encoding=utf-8
+set encoding=UTF-8
 set nobackup
 set nowritebackup
 syntax on
@@ -26,10 +26,11 @@ map <C-PageDown> :bn<CR>
 " Plugins
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'navarasu/onedark.nvim'
+Plug 'one-dark/onedark.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'chun-yang/auto-pairs'
+"Plug 'sheerun/vim-polyglot'
 call plug#end()
 " Theme selection
 colorscheme onedark
