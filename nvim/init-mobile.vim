@@ -52,5 +52,7 @@ Plug 'chun-yang/auto-pairs'
 Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'sheerun/vim-polyglot'
 call plug#end()
+" airline config
+let g:airline#extensions#tabline#enabled = 1
 " Seleccionar tema
 colorscheme dracula
