@@ -21,7 +21,7 @@ set textwidth=80
 :nnoremap <C-l> <C-W>l
 " Cambiar pestaña en celular
 :nnoremap <A-j> :bp<CR>
-:nnoremap <A-l> :bn<CR>
+:nnoremap <A-h> :bn<CR>
 " para ir a el archivo en cual estoy situado encima del cursor gf y a la definicion gd
 ":map <C-PageUp> :bp<CR>
 ":map <C-PageDown> :bn<CR>
@@ -47,6 +47,7 @@ endif
 " Plugins
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
 Plug 'chun-yang/auto-pairs'
 Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'sheerun/vim-polyglot'
